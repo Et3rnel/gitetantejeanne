@@ -46,18 +46,3 @@ a {
 .Village-Photos {
 	width: 100%;
 }
-
-h1, h2{
-	font-family: 'Bitter', serif;
-}
-
-h1{
-	font-size: 1.5em;
-	border-bottom: 1px dashed #393939;
-	padding-bottom: 3px;
-}
-h2{
-	font-size: 1.2em;
-	text-align: center;
-	margin-bottom: 9px; /* Lower than defaut value */
-}

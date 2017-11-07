@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from './Nav/Nav';
 import MenuItem from './Nav/MenuItem';
 import Carousel from './Carousel/Carousel';
+import Card from './Card/Card';
 import {
 	BrowserRouter as Router,
 	Route
@@ -40,7 +41,7 @@ class App extends Component {
 							)} />
 							<Route path="/activities" render={() => (
 								<Page title="Liste des activitées">
-									<p dangerouslySetInnerHTML={createPageMarkup(pagesText.activities)}></p>
+									<Card />
 								</Page>
 							)} />
 

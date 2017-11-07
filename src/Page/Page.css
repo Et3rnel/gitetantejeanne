@@ -3,3 +3,10 @@ body{
     background-repeat: no-repeat!important;
     background-size: cover!important;
 }
+
+h1.Page-Title{
+	font-family: 'Bitter', serif;
+	font-size: 1.5em;
+	border-bottom: 1px dashed #393939;
+	padding-bottom: 3px;
+}
