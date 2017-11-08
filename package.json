@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-fontawesome": "^1.6.1",
     "react-iframe": "^1.0.7",
     "react-image-gallery": "^0.8.4",
     "react-router-dom": "^4.2.2",

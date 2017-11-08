@@ -1,20 +1,100 @@
-body {
-    background: #f2f2f2;
-    font-family: 'proxima-nova-soft', sans-serif;
-    font-size: 14px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
-  span.Time-To-Go{
-	  font-size: 0.8em;
-  }
+@media screen and (max-width: 650px) {
+	.Card-Container {
+		width: 100%!important;
+	}
+}
+
+.Card-Container {
+	width: 45%;
+	margin: 10px;
+}
+
+.Card-Container .Column {
+	/* Without  css for now */
+}
+
+.post-module .thumbnail .Informations {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+	background: #e74c3c;
+	width: 60px;
+	height: 60px;
+	padding: 12.5px 0;
+	border-radius: 100%;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	-webkti-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.post-module .thumbnail .Informations .Transportation-Time {
+	font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.post-module .thumbnail .Informations .Transportation-Icon {
+	font-size: 12px;
+}
+
+.post-module .post-content .Card-Link {
+	margin: 0;
+}
+.post-module .post-content .Card-Link a{
+	font-family: sans-serif;
+	color: #e74c3c;
+	font-size: 20px;
+	font-weight: 400;
+}
+.post-module .post-content .Card-Link a:hover{
+	text-decoration: underline!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EN COURS */
+.post-module .thumbnail img {
+	display: block;
+	width: 100%;
+	-webkit-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-ms-transition: all 0.3s linear 0s;
+	-o-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+}
+
+
+
+span.Time-To-Go{
+	font-size: 0.8em;
+}
   .post-module {
     position: relative;
     z-index: 1;
     display: block;
     background: #FFFFFF;
-    min-width: 270px;
+    /* min-width: 270px; */
     /* height: 470px; */
     -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -41,41 +121,7 @@ body {
     /* height: 500px; */
     overflow: hidden;
   }
-  .post-module .thumbnail .date {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 1;
-    background: #e74c3c;
-    width: 55px;
-    height: 55px;
-    padding: 12.5px 0;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    color: #FFFFFF;
-    font-weight: 700;
-    text-align: center;
-    -webkti-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  .post-module .thumbnail .date .day {
-    font-size: 18px;
-  }
-  .post-module .thumbnail .date .month {
-    font-size: 12px;
-    text-transform: uppercase;
-  }
-  .post-module .thumbnail img {
-    display: block;
-    width: 120%;
-    -webkit-transition: all 0.3s linear 0s;
-    -moz-transition: all 0.3s linear 0s;
-    -ms-transition: all 0.3s linear 0s;
-    -o-transition: all 0.3s linear 0s;
-    transition: all 0.3s linear 0s;
-  }
+
   .post-module .post-content {
     /* position: absolute; */
     bottom: 0;
@@ -91,20 +137,6 @@ body {
     -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
   }
-.post-module .post-content .title {
-    margin: 0;
-    padding: 0 0 10px;
-    color: #333333;
-    font-size: 26px;
-    font-weight: 700;
-  }
-  .post-module .post-content .sub_title {
-    margin: 0;
-    padding: 0 0 20px;
-    color: #e74c3c;
-    font-size: 20px;
-    font-weight: 400;
-  }
   .post-module .post-content .description {
     display: none;
     color: #666666;
@@ -117,53 +149,12 @@ body {
     /* height: auto !important; */
     /* opacity: 1 !important; */
   }
-  .container {
-    max-width: 800px;
-    min-width: 640px;
-    margin: 0 auto;
-  }
-  .container:before,
-  .container:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-  .container .column {
-    width: 50%;
-    padding: 0 25px;
-    -webkti-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    float: left;
-  }
-  .container .column .demo-title {
-    margin: 0 0 15px;
-    color: #666666;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  .container .info {
-    width: 300px;
-    margin: 50px auto;
-    text-align: center;
-  }
-  .container .info h1 {
-    margin: 0 0 15px;
-    padding: 0;
-    font-size: 24px;
-    font-weight: bold;
-    color: #333333;
-  }
-  .container .info span {
+  
+  .Card-Container .info span {
     color: #666666;
     font-size: 12px;
   }
-  .container .info span a {
-    color: #000000;
-    text-decoration: none;
-  }
-  .container .info span .fa {
+  .Card-Container .info span .fa {
     color: #e74c3c;
   }
   
