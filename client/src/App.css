@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Work+Sans|Bangers');
+
+@media screen and (max-width: 650px) {
+  .Container {
+    display: block!important;
+  }
+  .Menu {
+    margin-top: 20px!important;
+  }
+  .Body {
+    max-width: 100%!important;
+  }
+}
+
+body{
+	background: #e5e5e5;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.Container{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.Menu{
+	flex: 1;
+	padding: 5px 10px;
+}
+
+.Body{
+	flex: 2;
+	padding: 5px 15px;
+	max-width: 65%;
+}
+
+.Menu, .Body {
+	background: white;
+	margin: 0 15px;
+	min-height: 500px;
+}
+.Village-Photos {
+	width: 100%;
+}
