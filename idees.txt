@@ -1,9 +1,0 @@
-les composants :
-
-- Menu
--- LienMenu
---- IconLienMenu
--- LogoMenu
-
-
-Modification pour test de push

@@ -1,12 +1,16 @@
-redis:
-  image: redis
+client-react:
+  image: react-docker
   command: redis-server --appendonly yes
   volumes:
   - /root/rss2twitter/data:/data
   ports:
   - "6379:6379"
 
-rss2twitter:
+server-express:
+  image: express-docker
   build: app
   links:
   - redis
+
+database-mongodb:
+  image: mongodb-docker
