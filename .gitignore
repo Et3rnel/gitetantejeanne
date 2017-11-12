@@ -1,8 +1,2 @@
-# NPM dependencies
+# Untrack all folders containing NPM dependencies
 node_modules/
-
-# testing
-/coverage
-
-# production
-/build
