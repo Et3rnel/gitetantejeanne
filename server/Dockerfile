@@ -12,7 +12,7 @@ RUN npm install
 # Copy all local files into the image.
 COPY . .
 
-# Launch the server with nodemon
-RUN npm start
+EXPOSE 3000
 
-EXPOSE 5000
+# The cmd to be run when docker run
+CMD [ "npm", "start" ]

@@ -12,7 +12,7 @@ class CardList extends Component {
 	}
 	
 	componentDidMount() {
-		fetch('http://localhost:3000/activities', {
+		fetch('http://54.37.68.79:3000/activities', {
 			method: 'GET',
 			mode: 'cors'
 		}).then(function(response) {
