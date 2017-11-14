@@ -12,7 +12,7 @@ class Card extends Component {
 			fontSize: '23px!important'
 		}
 
-		if(this.props.transportation == 0) {
+		if(this.props.transportation === 0) {
 			return <FontAwesome name='car' size='2x' />
 		} else {
 			return <FontAwesome name='blind' size='2x' style={footStyle}/>
@@ -34,7 +34,7 @@ class Card extends Component {
 							<div className="Transportation-Icon">
 								{this.getIcon()}
 							</div>
-						</div><img src={img}/>
+						</div><img src={img} alt="Activité"/>
 					</div>
 					
 					<div className="post-content">

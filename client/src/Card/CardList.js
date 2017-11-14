@@ -2,6 +2,8 @@ import './CardList.css';
 import React, { Component } from 'react';
 import Card from './Card';
 
+import Api from '../config.json';
+
 class CardList extends Component {
 	constructor(props) {
     super(props);
@@ -12,10 +14,20 @@ class CardList extends Component {
 	}
 	
 	componentDidMount() {
-		fetch('http://54.37.68.79:3000/activities', {
+		var apiUrl;
+		const displayType = this.props.type;
+		if(Api.settings.devMode === true) {
+			apiUrl = Api.settings.apiUrlDev;
+		} else {
+			apiUrl = apiUrl = Api.settings.apiUrlProd;
+		}
+		const fullUrl = 'http://' + apiUrl + ':3000/activities/' + displayType;
+		const fetchSettings = {
 			method: 'GET',
 			mode: 'cors'
-		}).then(function(response) {
+		}
+
+		fetch(fullUrl, fetchSettings).then(function(response) {
 			return response.json();
 		}).then(function(data) {
 			this.setState({
@@ -27,10 +39,10 @@ class CardList extends Component {
 	}
 	
 	initCardComponent(){
-		var myCards = new Array();
+		var myCards = [];
 		var myActivities = this.state.activities;
 
-		myActivities.forEach(function(activity, activityIndex){
+		myActivities.forEach(function(activity){
 			myCards.push(<Card transportation={activity.transportation} time={activity.time} photo={activity._id} ext={activity.imgext} title={activity.name} description={activity.description} important={activity.important}/>);
 		});
 		

@@ -8,7 +8,7 @@ import {
 	Route
 } from 'react-router-dom';
 import Page from './Page/Page';
-import pagesText from './pages-data.json';
+import pagesText from './config.json';
 import Iframe from 'react-iframe';
 
 // Menu images
@@ -36,25 +36,25 @@ class App extends Component {
 							<Route exact path="/" render={() => (
 								<Page title="Le gite de tante jeanne">
 									<Carousel />
-									<p dangerouslySetInnerHTML={createPageMarkup(pagesText.gite)}></p>
+									<p dangerouslySetInnerHTML={createPageMarkup(pagesText.pagesdata.gite)}></p>
 								</Page>
 							)} />
 							<Route path="/activities" render={() => (
 								<Page title="Liste des activitées">
-									<CardList />
+									<CardList type="activities"/>
 								</Page>
 							)} />
 
 							<Route path="/delicacies" render={() => (
 								<Page title="Liste des restaurants et gourmandises">
-									<p dangerouslySetInnerHTML={createPageMarkup(pagesText.delicacies)}></p>
+									<CardList type="delicacies"/>
 								</Page>
 							)} />
 
 							<Route path="/village" render={() => (
 								<Page title="Le village de Peaugres">
-									<p dangerouslySetInnerHTML={createPageMarkup(pagesText.village)}></p>
-									<a href="http://www.ardechegrandair.com/" target="_blank">
+									<p dangerouslySetInnerHTML={createPageMarkup(pagesText.pagesdata.village)}></p>
+									<a href="http://www.ardechegrandair.com/" target="_blank" rel="noopener noreferrer">
 										<img src={ArdecheGrdAir} style={{marginLeft: '25px'}} alt="Ardèche grand air" title="Ardèche grand air" />
 									</a>
 								</Page>
@@ -62,13 +62,13 @@ class App extends Component {
 
 							<Route path="/contact" render={() => (
 								<Page title="Nous contacter">
-									<p dangerouslySetInnerHTML={createPageMarkup(pagesText.contact)}></p>
+									<p dangerouslySetInnerHTML={createPageMarkup(pagesText.pagesdata.contact)}></p>
 								</Page>
 							)} />
 
 							<Route path="/rates" render={() => (
 								<Page title="Les tarifs">
-									<p dangerouslySetInnerHTML={createPageMarkup(pagesText.rates)}></p>
+									<p dangerouslySetInnerHTML={createPageMarkup(pagesText.pagesdata.rates)}></p>
 								</Page>
 							)} />
 

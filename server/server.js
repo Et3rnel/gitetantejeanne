@@ -7,14 +7,14 @@ var express = require('express'),
 
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://db/gitetantejeanne'); 
-// mongoose.connect('mongodb://db/gitetantejeanne'); 
-
+const options = {
+	useMongoClient: true
+}
+// mongoose.connect('mongodb://192.168.99.100/gitetantejeanne', options); 
+mongoose.connect('mongodb://db/gitetantejeanne', options); 
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-
 
 var routes = require('./api/routes/activitiesListRoute'); //importing route
 routes(app); //register the route
