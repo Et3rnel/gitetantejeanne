@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter|Work+Sans|Bangers');
 
+/* Mobile responsive */
 @media screen and (max-width: 650px) {
-  .Container {
+  .Content {
     display: block!important;
   }
   .Menu {
@@ -12,20 +13,29 @@
   }
 }
 
+/* General design */
 body{
 	background: #e5e5e5;
 }
 
 a {
 	text-decoration: none;
+}
+p a {
 	font-family: 'Work Sans', sans-serif;
 }
 
-.Container{
+/* App style */
+.Container {
+	display: flex;
+	flex-direction: column;
+}
+
+.Content{
 	display: flex;
 	justify-content: space-around;
 	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 5px;
 }
 .Menu{
 	flex: 1;
@@ -43,6 +53,28 @@ a {
 	margin: 0 15px;
 	min-height: 500px;
 }
-.Village-Photos {
+.Footer {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.Footer .Footer-Content {
+	margin: 0 15px;
+	height: 40px;
+	line-height: 40px;
+	background-color: white;
+	padding: 0 15px;
+}
+
+.Footer .Footer-Content a {
+	color: #3F51B5;
+	font-family: sans-serif;
+}
+
+/* Right menu imgs */
+.Village-Photos, .Fb-Page, .Fb-Page img  {
+	width: 100%;
+}
+.Fb-Share img {
 	width: 100%;
 }

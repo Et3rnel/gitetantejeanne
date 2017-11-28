@@ -43,7 +43,10 @@ class CardList extends Component {
 		var myActivities = this.state.activities;
 
 		myActivities.forEach(function(activity){
-			myCards.push(<Card transportation={activity.transportation} time={activity.time} photo={activity._id} ext={activity.imgext} title={activity.name} description={activity.description} important={activity.important}/>);
+			myCards.push(<Card transportation={activity.transportation} time={activity.time} 
+				photo={activity._id} ext={activity.imgext} title={activity.name} 
+				description={activity.description} important={activity.important}
+				address={activity.address} />);
 		});
 		
 		return myCards;

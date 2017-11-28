@@ -2,6 +2,7 @@
     nav{
         display: flex;
         flex-direction: column;
+        overflow: overlay;
     }
 
     nav span img{
