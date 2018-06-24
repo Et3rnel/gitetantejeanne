@@ -1,7 +1,7 @@
 'use strict';
 
 var mongoose = require('mongoose'),
-    Activity = mongoose.model('Activities');
+Activity = mongoose.model('Activities');
 
 exports.list_all_activities = function(req, res) {
 
@@ -11,7 +11,7 @@ exports.list_all_activities = function(req, res) {
     const typeActivity = req.params.type;
     res.header("Access-Control-Allow-Origin", "*");
 
-    if(typeActivity == 'delicacies') {
+    if (typeActivity === 'delicacies') {
         Activity.find({type: true}, function(err, Activity) {
             if (err) {
                 res.send(err);
@@ -19,7 +19,7 @@ exports.list_all_activities = function(req, res) {
             datas = Activity;
             res.json(datas);
         });
-    } else if(typeActivity == 'activities') {
+    } else if (typeActivity === 'activities') {
         Activity.find({type: false}, function(err, Activity) {
             if (err) {
                 res.send(err);
