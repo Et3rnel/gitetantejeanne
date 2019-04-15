@@ -1,7 +1,7 @@
 // equivalent for "use <db>" command in mongo shell
-db = db.getSiblingDB('gitetantejeanne')
+db = db.getSiblingDB('gitetantejeanne');
  
-db.Activities.insertMany([ 
+db.activities.insertMany([ 
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8513f"),
         "imgext" : "jpeg",
@@ -445,4 +445,5 @@ db.Activities.insertMany([
         "description" : "Une situation géographique exceptionnelle, un réseau de communication très dense, un dynamisme économique et humain remarquable, des charmes culturels et gastronomiques qui font saliver les curieux, et surtout une qualité de vie largement reconnue et appréciée…\r\nLyon a tous les atouts en main pour défendre la place qu'elle s'est faite parmi les villes les plus attractives d’Europe.",
         "type" : true,
         "name" : "Ville de Lyon"
-    }])
+    }
+]);

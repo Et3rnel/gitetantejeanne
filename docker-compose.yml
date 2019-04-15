@@ -15,11 +15,14 @@ services:
       - "3000:3000"
     links:
       - database-mongodb:db
+    depends_on:
+      - database-mongodb
+    restart: always
 
   client-react:
     build:
       context: ./client
-    ports: 
+    ports:
       - "80:80"
     links:
       - server-express:server
