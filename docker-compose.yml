@@ -1,10 +1,12 @@
-version: '2'
+version: '3'
+
 services:
   database-mongodb:
     build:
       context: ./database
     ports: 
       - "27017:27017"
+    restart: always
   
   server-express:
     build:
