@@ -12,8 +12,6 @@ db.activities.insertMany([
         "type" : true,
         "name" : "Cave de Saint-Désirat"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85140"),
         "imgext" : "jpeg",
@@ -24,8 +22,6 @@ db.activities.insertMany([
         "type" : true,
         "name" : "Cave de Tain"
     },
-    
-     
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85141"),
         "imgext" : "png",
@@ -36,8 +32,6 @@ db.activities.insertMany([
         "type" : true,
         "name" : "Restaurant : Bateau d’Emile"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85142"),
         "imgext" : "jpeg",
@@ -48,8 +42,6 @@ db.activities.insertMany([
         "type" : true,
         "name" : "Restaurant : Daddy Cool"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85143"),
         "imgext" : "jpeg",
@@ -60,8 +52,6 @@ db.activities.insertMany([
         "type" : true,
         "name" : "Restaurant : Auberge de Thorrenc"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85144"),
         "imgext" : "jpeg",
@@ -72,8 +62,6 @@ db.activities.insertMany([
         "type" : true,
         "name" : "La crep'rit"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85145"),
         "imgext" : "jpeg",
@@ -84,8 +72,6 @@ db.activities.insertMany([
         "type" : true,
         "name" : "Pizzeria BIO"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85146"),
         "imgext" : "jpeg",
@@ -96,8 +82,6 @@ db.activities.insertMany([
         "type" : true,
         "name" : "Régis et Jacques Marcon"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85147"),
         "imgext" : "jpeg",
@@ -108,8 +92,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Le mastrou"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85148"),
         "imgext" : "jpeg",
@@ -121,8 +103,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Safari de Peaugres"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85149"),
         "imgext" : "jpeg",
@@ -133,8 +113,6 @@ db.activities.insertMany([
         "type" : true,
         "name" : "Les bonbons de julien"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8514a"),
         "imgext" : "jpeg",
@@ -145,8 +123,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Domaine Saint-Clair"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8514b"),
         "imgext" : "jpeg",
@@ -157,8 +133,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Papeterie canson"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8514c"),
         "imgext" : "jpeg",
@@ -169,8 +143,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Espace eaux vives St Pierre de Boeuf"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8514d"),
         "imgext" : "jpeg",
@@ -181,8 +153,6 @@ db.activities.insertMany([
         "type" : true,
         "name" : "Distillerie Jean Gauthier"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8514e"),
         "imgext" : "jpeg",
@@ -193,8 +163,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Vélorail Ardèche"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8514f"),
         "imgext" : "png",
@@ -205,8 +173,6 @@ db.activities.insertMany([
         "type" : true,
         "name" : "Valhrona chocolaterie"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85150"),
         "imgext" : "jpeg",
@@ -217,8 +183,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Montgolfières"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85151"),
         "imgext" : "jpeg",
@@ -229,8 +193,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Parcheminerie Dumas"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85152"),
         "imgext" : "jpeg",
@@ -241,8 +203,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Les acrobois"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85153"),
         "imgext" : "jpeg",
@@ -253,8 +213,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Le Musée du car"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85154"),
         "imgext" : "png",
@@ -265,8 +223,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "La ferme de tiallou"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85155"),
         "imgext" : "jpeg",
@@ -277,8 +233,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Aqualone"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85156"),
         "imgext" : "jpeg",
@@ -290,8 +244,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "ViaRhôna et rosalies des collines"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85157"),
         "imgext" : "jpeg",
@@ -302,8 +254,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Parc de jeu interieur climatise pour les petits"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85158"),
         "imgext" : "jpeg",
@@ -314,8 +264,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Base de loisirs baignade ski nautique pique nique"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85159"),
         "imgext" : "jpeg",
@@ -326,8 +274,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Parc enfants plein air"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8515a"),
         "imgext" : "jpeg",
@@ -338,8 +284,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Visite randonnee Village Medieval"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8515b"),
         "imgext" : "jpeg",
@@ -350,8 +294,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Palais du facteur Cheval"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8515c"),
         "imgext" : "jpeg",
@@ -362,8 +304,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Base de loisirs Lac de Devesset"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8515d"),
         "imgext" : "jpeg",
@@ -375,8 +315,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Pelussin village de caractere et sa piscine"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8515e"),
         "imgext" : "jpeg",
@@ -387,8 +325,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Ballades en Anes"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b8515f"),
         "imgext" : "jpeg",
@@ -399,8 +335,7 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Gerbier de jonc et Mezenc"
     },
-    
-     {
+    {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85160"),
         "imgext" : "png",
         "address" : "http://le-lac-dissarles.stationverte.com/",
@@ -410,8 +345,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Lac d Issarles"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85161"),
         "imgext" : "jpeg",
@@ -422,8 +355,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Lac de St Martial"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85162"),
         "imgext" : "jpeg",
@@ -434,8 +365,6 @@ db.activities.insertMany([
         "type" : false,
         "name" : "Le lac du ternay"
     },
-    
-    
     {
         "_id" : ObjectId("5a052d4a868bdc3ee0b85163"),
         "imgext" : "jpeg",
