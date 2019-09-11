@@ -1,4 +1,9 @@
-Manually update *production*
+### Introduction
+
+This this the reposistory of the Gite tante jeanne guest-house (gîte) website.
+[gitetantejeanne.eu](http://gitetantejeanne.eu/)
+
+### Manually update *production*
 
     cd /home/gitetantejeanne/
     git pull
@@ -19,5 +24,3 @@ Server (Express)
 
     docker build -t express-docker .
     docker run -p 3000:3000 --name express -d express-docker
-
-
