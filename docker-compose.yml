@@ -1,4 +1,4 @@
-version: '3'
+version: "3.7"
 
 services:
   database-mongodb:
@@ -8,7 +8,7 @@ services:
       - "27017:27017"
     restart: always
     volumes:
-      - /usr/local/mongodb/gitetantejeanne:/data/db
+      - mongo-data:/data/db
   
   server-express:
     build:
@@ -28,3 +28,10 @@ services:
       - "80:80"
     links:
       - server-express:server
+
+volumes: 
+  mongo-data:
+    driver_opts:
+          type: none
+          device: /usr/local/mongodb/gitetantejeanne #needs full path
+          o: bind
