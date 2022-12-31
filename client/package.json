@@ -9,7 +9,7 @@
     "react-iframe": "^1.0.7",
     "react-image-gallery": "^0.8.4",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.14"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
